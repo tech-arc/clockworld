@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+    font-size: 80%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0rem;
+}
+body {
+    background-image: linear-gradient(to bottom left, rgb(0, 66, 66), rgb(33, 0, 77), rgb(51, 0, 51));
+    background-size: 100% 700%;
+    height: 5rem;
+    box-shadow: inset 1rem 1rem 8rem  rgba(0, 255, 255, 0.911);
+}    
+section h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 0.7rem;
+    letter-spacing: 0.5rem;
+    color: cyan;
+}
+a {
+    text-decoration-line: none;
+}
+.mainclass .son {
+    width: 15em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1em solid #003047;
+    border-radius: 1rem;
+    box-shadow: 0 -0.5375em 0.5375em rgba(255, 255, 255, 0),
+    inset 0 -0.5375em 0.5375em rgba(255, 255, 255, 0.05),
+    0 0.4375em 0.4375em rgba(0, 0, 0, 0.3),
+    inset 0 0.5375em 0.5375em rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 10rem;
+    left: 15%;
+    letter-spacing: 0.2rem;
+    font-style: italic;
+    color: cornsilk;
+    font-weight: 500;
+    font-size: 130%;
+    transition: .5s linear;
+}
+.mainclass .son:hover {
+    background: #003047;
+    font-style: italic;
+    color: whitesmoke;
+    font-size: 150%;
+    transition: .5s linear;
+}
+.dream .meta {
+    width: 15em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10rem;
+    left: 40%;
+    letter-spacing: 0.2rem;
+    font-style: italic;
+    color: crimson;
+    font-weight: 520;
+    font-size: 130%;
+    font-family: 'Astera';
+    transition: .5s linear;
+    border-radius: 1rem;
+    box-shadow: 0 -0.9375em 1.5em rgb(3, 170, 170),
+                inset 0 -0.9375em 0.9375em rgb(3, 170, 170),
+                0 0.9375em 1.5em rgb(3, 170, 170),
+                inset 0 0.9375em 0.9375em rgb(3, 170, 170);
+}
+.dream .meta:hover {
+    box-shadow: 0 -0.9375em 1.5em rgb(3, 170, 170),
+                inset 0 -1.9375em 0.9375em rgb(3, 170, 170),
+                0 0.9375em 1.5em rgb(3, 170, 170),
+                inset 0 1.9375em 0.9375em rgb(3, 170, 170);
+    color: crimson;
+    font-size: 150%;
+    transition: .5s linear;
+}
+.light .white {
+    width: 15em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10rem;
+    left: 65%;
+    font-family: 'Anurati';
+    letter-spacing: 0.2rem;
+    font-style: italic;
+    color: darkblue;
+    font-weight: 520;
+    font-size: 130%;
+    background: rgb(219, 218, 218);
+    border: 0.1em solid rgb(219, 218, 218);
+    transition: .5s linear;
+    border-radius: 1rem;
+    box-shadow: 0 -0.9375em 5em rgba(255, 255, 255, 0.185),
+                inset 0 -0.9375em 0.9375em rgba(0, 0, 0, 0.05),
+                0 0.9375em 10em 2rem rgba(255, 255, 255, 0),
+                inset 0 1.9375em 0.9375em rgba(0, 0, 0, 0.05);
+}
+.light .white:hover {
+    font-size: 150%;
+    transition: .5s linear;
+    font-family: 'Times New Roman', Times, serif;
+}

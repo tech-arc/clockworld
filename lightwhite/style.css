@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(219, 218, 218);
+}
+.clock {
+    width: 21.875em;
+    height: 21.875em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(clock.png);
+    background-size: cover;
+    border: 0.25em solid rgb(219, 218, 218);
+    border-radius: 50%;
+    box-shadow: 0 -0.9375em 5em 2rem rgb(255, 255, 255),
+                inset 0 -0.9375em 0.9375em rgba(0, 0, 0, 0.05),
+                0 0.9375em 10em 2rem rgb(255, 255, 255),
+                inset 0 0.9375em 0.9375em rgba(0, 0, 0, 0.05);
+}
+.clock::before {
+    content: '';
+    position: absolute;
+    width: 0.9375em;
+    height: 0.9375em;
+    background: whitesmoke;
+    border-radius: 50%;
+    z-index: 10000;
+}
+.clock .hour, .clock .min, .clock .sec  {
+    position: absolute;
+}
+.clock .hour, .hr {
+    width: 10em;
+    height: 10em;
+}
+.clock .min, .mn {
+    width: 11.875em;
+    height: 11.875em;
+}
+.clock .sec, .sc {
+    width: 14em;
+    height: 14em;
+}
+.hr, .mn, .sc {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    border-radius: 50%;
+}
+.hr::before {
+    content: '';
+    position: absolute;
+    width: 0.4em;
+    height: 5em;
+    /* background: rgb(46, 177, 170); */
+    background: wheat;
+    z-index: 10;
+    border-radius: 0.375em 0.375em 0 0;
+}
+.mn::before {
+    content: '';
+    position: absolute;
+    width: 0.25em;
+    height: 5.625em;
+    background: cadetblue;
+    z-index: 11;
+    border-radius: 0.375em 0.375em 0 0;
+}
+.sc::before {
+    content: '';
+    position: absolute;
+    width: 0.125em;
+    height: 9.375em;
+    background: crimson;
+    z-index: 12;
+    border-radius: 0.375em 0.375em 0 0;
+}
+section figure img {
+    width: 4em;
+    height: 4em;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 38em;
+    top: 19.9em;
+    opacity: 30%;
+}

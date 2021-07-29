@@ -1,0 +1,424 @@
+@media screen and (min-width: 240px) and (max-width: 300px) {
+    html {
+        font-size: 57%;
+        width: 100%;
+    }
+    .dream .meta {
+        position: absolute;
+        top: 17.2rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .light .white {
+        position: absolute;
+        top: 24rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .mainclass .son {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media screen and (min-width: 301px) and (max-width: 350px) {
+    html {
+        font-size: 65%;
+        width: 100%;
+    }
+    .dream .meta {
+        position: absolute;
+        top: 17.2rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .light .white {
+        position: absolute;
+        top: 24rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .mainclass .son {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media screen  and (min-width: 351px) and (max-width: 401px) {
+    html {
+        font-size: 70%;
+        width: 100%;
+    }
+    .dream .meta {
+        position: absolute;
+        top: 17.2rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .light .white {
+        position: absolute;
+        top: 24rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .mainclass .son {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media screen and (min-width: 402px) and (max-width: 452px) {
+    html {
+        font-size: 75%;
+        width: 100%;
+    }
+    .dream .meta {
+        position: absolute;
+        top: 17.2rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .light .white {
+        position: absolute;
+        top: 24rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .mainclass .son {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media screen and (min-width: 453px) and (max-width: 503px) {
+    html {
+        font-size: 80%;
+        width: 100%;
+    }
+    .dream .meta {
+        position: absolute;
+        top: 17.2rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .light .white {
+        position: absolute;
+        top: 24rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .mainclass .son {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+@media screen and (min-width: 504px) and (max-width: 554px) {
+    html {
+        font-size: 75%;
+        width: 100%;
+    }
+    .dream .meta {
+        position: absolute;
+        top: 10rem;
+        left: 53%;
+    }
+    .light .white {
+        position: absolute;
+        top: 17rem;
+        left: 5%;
+    }
+    .mainclass .son {
+        position: absolute;
+        left: 5%;
+    }
+}
+@media screen  and (min-width: 555px) and (max-width: 605px) {
+    html {
+        font-size: 80%;
+        width: 100%;
+    }
+    .dream .meta {
+        position: absolute;
+        top: 10rem;
+        left: 53%;
+    }
+    .light .white {
+        position: absolute;
+        top: 17rem;
+        left: 5%;
+    }
+    .mainclass .son {
+        position: absolute;
+        left: 5%;
+    }
+}
+@media screen and (min-width: 606px) and (max-width: 656px) {
+    html {
+        font-size: 80%;
+        width: 100%;
+    }
+    .dream .meta {
+        position: absolute;
+        top: 10rem;
+        left: 53%;
+    }
+    .light .white {
+        position: absolute;
+        top: 17rem;
+        left: 5%;
+    }
+    .mainclass .son {
+        position: absolute;
+        left: 5%;
+    }
+}
+@media screen and (min-width: 657px) and (max-width: 707px) {
+    html {
+        font-size: 85%;
+        width: 100%;
+    }
+    .dream .meta {
+        position: absolute;
+        top: 10rem;
+        left: 53%;
+    }
+    .light .white {
+        position: absolute;
+        top: 17rem;
+        left: 5%;
+    }
+    .mainclass .son {
+        position: absolute;
+        left: 5%;
+    }
+}
+@media screen and (min-width: 708px) and (max-width: 758px) {
+    html {
+        font-size: 90%;
+        width: 100%;
+    }
+    .dream .meta {
+        position: absolute;
+        top: 10rem;
+        left: 55%;
+    }
+    .light .white {
+        position: absolute;
+        top: 17rem;
+        left: 8%;
+    }
+    .mainclass .son {
+        position: absolute;
+        left: 8%;
+    }
+}
+@media screen and (min-width: 759px) and (max-width: 768px) {
+    html {
+        font-size: 95%;
+        width: 100%;
+    }
+    .dream .meta {
+        position: absolute;
+        top: 10rem;
+        left: 54%;
+    }
+    .light .white {
+        position: absolute;
+        top: 17rem;
+        left: 7%;
+    }
+    .mainclass .son {
+        position: absolute;
+        left: 7%;
+    }
+}
+@media screen and (min-width: 769px) and (max-width: 809px) {
+    html {
+        font-size: 57%;
+        width: 100%;
+    }
+    .dream .meta {
+        position: absolute;
+    top: 10rem;
+    left: 39.5%;
+    }
+    .light .white {
+        position: absolute;
+    top: 10rem;
+    left: 67%;
+    }
+    .mainclass .son {
+        position: absolute;
+    top: 10rem;
+    left: 12%;
+    }
+}
+@media screen and (min-width: 809px) and (max-width: 859px) {
+    html {
+        font-size: 60%;
+        width: 100%;
+    }
+    .dream .meta {
+        position: absolute;
+    top: 10rem;
+    left: 39.5%;
+    }
+    .light .white {
+        position: absolute;
+    top: 10rem;
+    left: 67%;
+    }
+    .mainclass .son {
+        position: absolute;
+    top: 10rem;
+    left: 12%;
+    }
+}
+@media screen and (min-width: 859px) and (max-width: 909px) {
+    html {
+        font-size: 63%;
+        width: 100%;
+    }
+    .dream .meta {
+        position: absolute;
+    top: 10rem;
+    left: 39.5%;
+    }
+    .light .white {
+        position: absolute;
+    top: 10rem;
+    left: 67%;
+    }
+    .mainclass .son {
+        position: absolute;
+    top: 10rem;
+    left: 12%;
+    }
+}
+@media  screen and (min-width: 910px) and (max-width: 960px) {
+    html {
+        font-size: 67%;
+        width: 100%;
+    }
+    .dream .meta {
+        position: absolute;
+    top: 10rem;
+    left: 39.5%;
+    }
+    .light .white {
+        position: absolute;
+    top: 10rem;
+    left: 67%;
+    }
+    .mainclass .son {
+        position: absolute;
+    top: 10rem;
+    left: 12%;
+    }
+}
+@media screen and (min-width: 961px) and (max-width: 1011px) {
+    html {
+        font-size: 70%;
+        width: 100%;
+    }
+    .dream .meta {
+        position: absolute;
+    top: 10rem;
+    left: 39.5%;
+    }
+    .light .white {
+        position: absolute;
+    top: 10rem;
+    left: 67%;
+    }
+    .mainclass .son {
+        position: absolute;
+    top: 10rem;
+    left: 12%;
+    }
+}
+@media screen and (min-width: 1012px) and (max-width: 1062px) {
+    html {
+        font-size: 73%;
+        width: 100%;
+    }
+    .dream .meta {
+        position: absolute;
+    top: 10rem;
+    left: 39.5%;
+    }
+    .light .white {
+        position: absolute;
+    top: 10rem;
+    left: 67%;
+    }
+    .mainclass .son {
+        position: absolute;
+    top: 10rem;
+    left: 12%;
+    }
+}
+@media screen and (min-width: 1063px) and (max-width: 1113px) {
+    html {
+        font-size: 75%;
+        width: 100%;
+    }
+    .dream .meta {
+        position: absolute;
+    top: 10rem;
+    left: 39.5%;
+    }
+    .light .white {
+        position: absolute;
+    top: 10rem;
+    left: 67%;
+    }
+    .mainclass .son {
+        position: absolute;
+    top: 10rem;
+    left: 12%;
+    }
+}
+@media screen and (min-width: 1114px) and (max-width: 1164px) {
+    html {
+        font-size: 78%;
+        width: 100%;
+    }
+    .dream .meta {
+        position: absolute;
+    top: 10rem;
+    left: 39%;
+    }
+    .light .white {
+        position: absolute;
+    top: 10rem;
+    left: 67%;
+    }
+    .mainclass .son {
+        position: absolute;
+    top: 10rem;
+    left: 12%;
+    }
+}
+@media screen and (min-width: 1165px) and (max-width: 1199px) {
+    html {
+        font-size: 80%;
+        width: 100%;
+    }
+    .dream .meta {
+        position: absolute;
+    top: 10rem;
+    left: 40%;
+    }
+    .light .white {
+        position: absolute;
+    top: 10rem;
+    left: 68%;
+    }
+    .mainclass .son {
+        position: absolute;
+    top: 10rem;
+    left: 13%;
+    }
+}

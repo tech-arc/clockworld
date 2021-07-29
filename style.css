@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    overflow: hidden;
+}
+body {
+    background-image: linear-gradient(to left, #1e0a31, hsl(305, 66%, 12%));
+}    
+li{
+    list-style: none;
+}
+.heading .mainheading {
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 5.5rem;
+    margin-top: 3.5rem;
+    font-size: 270%;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
+    letter-spacing: .4rem;
+    border: .2rem solid violet;
+    border-radius: 1rem;
+    border-left-style: double;
+    border-right-style: double;
+    border-top-style: double;
+    border-bottom-style: double;
+    width: 70rem;
+    font-family: 'cheque';
+    cursor: text;
+}
+.heading h2 {
+    color: white;
+    letter-spacing: .2rem;
+    text-align: center;
+    position: absolute;
+    top: 12.5rem;
+    left: 28%;
+    border-radius: 1rem;
+    border: .3rem solid rgb(0, 255, 106);
+    border-style: ridge;
+    /* width: 35rem; */
+    width: 43%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .3rem;
+    padding-bottom: .4rem;
+    transition: .5s linear;
+    cursor: text;
+}
+.heading h2:hover {
+    color: hotpink;
+    background: rgb(52, 4, 97);
+    transition: .5s linear;
+}
+.log .ana a {
+    width: 24rem;
+    padding: 1rem 4rem 1rem 4rem;
+    color: whitesmoke;
+    border-radius: 1rem;
+    letter-spacing: .2rem;
+    font-family: 'DARK';
+    border: .2rem solid #310a2e;
+    box-shadow: 0 -0.5375em 0.5375em rgba(255, 255, 255, 0),
+                inset 0 -0.5375em 0.5375em rgba(255, 255, 255, 0.05),
+                0 0.4375em 0.4375em rgba(0, 0, 0, 0.3),
+                inset 0 0.5375em 0.5375em rgba(0, 0, 0, 0.3);
+    display: flex;
+    position: absolute;
+    left: 29rem;
+    top: 21rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+.log .ana a:hover {
+    font-family: 'anurati';
+}
+.log .but {
+    font-size: 80%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 100%;
+}
+.or p {
+    font-size: 1.2rem;
+    color: hotpink;
+    text-align: center;
+    position: absolute;
+    top: 26.4rem;
+    left: 50%;
+}
+.tal .digi a {
+    width: 24rem;
+    padding: 1rem 4rem 1rem 4rem;
+    font-size: .5rem;
+    font-family: 'Digital';
+    letter-spacing: 0.56rem;
+    color: whitesmoke;
+    border-radius: 1rem;
+    border: .2rem solid #31062e;
+    box-shadow: 0 -0.5375em 0.5375em rgba(255, 255, 255, 0),
+                inset 0 -0.5375em 0.5375em rgba(255, 255, 255, 0.05),
+                0 0.4375em 0.4375em rgba(0, 0, 0, 0.3),
+                inset 0 0.5375em 0.5375em rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 29rem;
+    top: 28.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-line: none;
+    cursor: pointer;
+} 
+.tal .but {
+    font-size: 1rem;
+    width: 35.6rem;
+    height: 6.5rem;
+    background: transparent;
+    border-width: 0rem;
+    margin-left: 33.5%;
+    margin-top: 22%;
+}
