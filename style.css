@@ -79,9 +79,6 @@ li{
     text-decoration-line: none;
     cursor: pointer;
 }
-.log .ana a:hover {
-    font-family: 'anurati';
-}
 .log .but {
     font-size: 80%;
     font-family: 'Times New Roman', Times, serif;
